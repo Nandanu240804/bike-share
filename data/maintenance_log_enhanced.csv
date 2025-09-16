@@ -1,0 +1,301 @@
+log_id,date_reported,equipment_id,issue_reported,priority,status,assigned_to,expected_resolution_date,actual_resolution_date,resolution_summary,downtime_hours,brakes_replaced,tires_replaced,chain_replaced,gears_replaced,electronics_replaced
+1,2024-10-29,1018,Leakage,Low,Open,Alice,2025-08-25,2025-08-26,Replaced faulty valve,1.09,Yes,No,No,No,No
+2,2024-10-30,1019,Overheating,Low,In Progress,David,2025-08-26,2025-08-27,Routine inspection,0.28,No,No,Yes,No,No
+3,2024-10-31,1006,Pressure drop,Medium,Closed,David,2025-08-27,2025-08-28,Lubricated moving parts,2.02,No,No,No,No,No
+4,2024-11-01,1002,Overheating,Medium,In Progress,David,2025-08-28,2025-08-29,Replaced faulty valve,0.57,No,No,Yes,No,No
+5,2024-11-02,1013,Pressure drop,Low,Closed,Bob,2025-08-29,2025-08-30,Lubricated moving parts,0.05,No,No,No,No,No
+6,2024-11-03,1011,Pressure drop,Low,Closed,David,2025-08-30,2025-08-31,Adjusted pressure,0.28,No,No,No,No,No
+7,2024-11-04,1001,Pressure drop,Medium,Closed,Bob,2025-08-31,2025-09-01,Replaced faulty valve,1.45,No,Yes,No,No,No
+8,2024-11-05,1002,Overheating,Low,Closed,Bob,2025-09-01,2025-09-02,Adjusted pressure,0.07,No,No,No,No,No
+9,2024-11-06,1017,Pressure drop,High,Open,Charlie,2025-09-02,2025-09-03,Replaced faulty valve,0.16,No,No,No,No,No
+10,2024-11-07,1008,Leakage,Medium,In Progress,David,2025-09-03,2025-09-04,Replaced faulty valve,1.18,No,No,Yes,No,No
+11,2024-11-08,1002,Routine check,Medium,Open,David,2025-09-04,2025-09-05,Routine inspection,2.23,No,No,No,Yes,No
+12,2024-11-09,1006,Routine check,Medium,Closed,David,2025-09-05,2025-09-06,Adjusted pressure,1.0,No,No,No,No,No
+13,2024-11-10,1005,Pressure drop,Low,Open,Bob,2025-09-06,2025-09-07,Adjusted pressure,0.25,No,No,No,No,No
+14,2024-11-11,1016,Routine check,High,In Progress,Bob,2025-09-07,2025-09-08,Adjusted pressure,0.05,No,Yes,No,No,No
+15,2024-11-12,1008,Routine check,Low,In Progress,David,2025-09-08,2025-09-09,Replaced faulty valve,0.95,Yes,No,No,No,No
+16,2024-11-13,1019,Pressure drop,Medium,Closed,Bob,2025-09-09,2025-09-10,Adjusted pressure,0.05,No,No,No,No,No
+17,2024-11-14,1016,Pressure drop,Medium,In Progress,Bob,2025-09-10,2025-09-11,Adjusted pressure,0.95,No,No,No,No,No
+18,2024-11-15,1013,Leakage,Low,Closed,Alice,2025-09-11,2025-09-12,Routine inspection,0.26,No,No,No,No,No
+19,2024-11-16,1007,Vibration abnormal,Medium,Open,Alice,2025-09-12,2025-09-13,Lubricated moving parts,2.35,No,No,No,No,No
+20,2024-11-17,1016,Overheating,High,Open,David,2025-09-13,2025-09-14,Lubricated moving parts,0.64,Yes,No,No,No,No
+21,2024-11-18,1016,Pressure drop,Medium,In Progress,David,2025-09-14,2025-09-15,Adjusted pressure,0.25,No,No,No,No,No
+22,2024-11-19,1012,Pressure drop,High,Closed,Alice,2025-09-15,2025-09-16,Adjusted pressure,1.92,No,No,No,No,No
+23,2024-11-20,1014,Routine check,High,Closed,Bob,2025-09-16,2025-09-17,Adjusted pressure,0.29,No,No,No,No,No
+24,2024-11-21,1018,Leakage,Medium,Open,Bob,2025-09-17,2025-09-18,Adjusted pressure,0.37,No,No,Yes,No,No
+25,2024-11-22,1018,Routine check,Medium,Open,Charlie,2025-09-18,2025-09-19,Lubricated moving parts,1.8,No,No,No,No,Yes
+26,2024-11-23,1016,Pressure drop,Medium,Closed,David,2025-09-19,2025-09-20,Routine inspection,0.37,No,No,No,No,No
+27,2024-11-24,1016,Pressure drop,Medium,Open,David,2025-09-20,2025-09-21,Replaced faulty valve,0.53,No,Yes,No,No,No
+28,2024-11-25,1013,Routine check,Low,Open,David,2025-09-21,2025-09-22,Adjusted pressure,0.43,No,No,No,No,No
+29,2024-11-26,1009,Pressure drop,High,Open,Charlie,2025-09-22,2025-09-23,Adjusted pressure,0.12,No,Yes,No,No,No
+30,2024-11-27,1009,Vibration abnormal,Medium,Open,Charlie,2025-09-23,2025-09-24,Lubricated moving parts,0.04,No,No,No,Yes,No
+31,2024-11-28,1013,Overheating,Medium,In Progress,Bob,2025-09-24,2025-09-25,Adjusted pressure,1.29,No,No,No,Yes,No
+32,2024-11-29,1004,Overheating,Medium,Open,Alice,2025-09-25,2025-09-26,Routine inspection,1.04,No,No,No,No,No
+33,2024-11-30,1009,Overheating,Medium,In Progress,Alice,2025-09-26,2025-09-27,Routine inspection,0.33,No,No,No,No,No
+34,2024-12-01,1015,Vibration abnormal,High,Closed,Alice,2025-09-27,2025-09-28,Adjusted pressure,0.35,No,No,No,No,No
+35,2024-12-02,1014,Pressure drop,Medium,In Progress,Bob,2025-09-28,2025-09-29,Lubricated moving parts,2.9,No,No,No,No,No
+36,2024-12-03,1019,Routine check,Low,Closed,Alice,2025-09-29,2025-09-30,Adjusted pressure,4.4,No,No,No,No,Yes
+37,2024-12-04,1012,Leakage,Low,Open,Charlie,2025-09-30,2025-10-01,Adjusted pressure,0.64,Yes,No,No,No,No
+38,2024-12-05,1006,Pressure drop,High,Closed,Charlie,2025-10-01,2025-10-02,Lubricated moving parts,1.62,No,No,No,No,No
+39,2024-12-06,1003,Vibration abnormal,Medium,In Progress,David,2025-10-02,2025-10-03,Routine inspection,1.33,No,No,No,No,No
+40,2024-12-07,1016,Vibration abnormal,High,Closed,Alice,2025-10-03,2025-10-04,Replaced faulty valve,0.35,No,No,No,No,No
+41,2024-12-08,1017,Overheating,Low,Open,Charlie,2025-10-04,2025-10-05,Adjusted pressure,0.06,No,No,No,No,No
+42,2024-12-09,1016,Pressure drop,Low,Closed,David,2025-10-05,2025-10-06,Routine inspection,0.15,No,Yes,No,No,No
+43,2024-12-10,1006,Overheating,Low,In Progress,Alice,2025-10-06,2025-10-07,Adjusted pressure,1.82,No,No,No,No,Yes
+44,2024-12-11,1008,Leakage,Medium,In Progress,Alice,2025-10-07,2025-10-08,Replaced faulty valve,1.31,No,No,No,No,No
+45,2024-12-12,1019,Overheating,Medium,Closed,Charlie,2025-10-08,2025-10-09,Lubricated moving parts,1.09,No,No,No,Yes,No
+46,2024-12-13,1002,Leakage,Low,Closed,David,2025-10-09,2025-10-10,Routine inspection,0.14,No,Yes,No,No,No
+47,2024-12-14,1014,Vibration abnormal,Medium,In Progress,David,2025-10-10,2025-10-11,Replaced faulty valve,1.02,No,No,No,No,No
+48,2024-12-15,1012,Overheating,Medium,Closed,Charlie,2025-10-11,2025-10-12,Adjusted pressure,1.48,No,No,No,No,Yes
+49,2024-12-16,1017,Overheating,Low,In Progress,Charlie,2025-10-12,2025-10-13,Replaced faulty valve,1.97,No,No,No,No,No
+50,2024-12-17,1015,Routine check,Medium,Open,Charlie,2025-10-13,2025-10-14,Routine inspection,0.01,No,No,No,No,Yes
+51,2024-12-18,1018,Vibration abnormal,Medium,Closed,Alice,2025-10-14,2025-10-15,Lubricated moving parts,1.15,No,No,No,No,No
+52,2024-12-19,1016,Routine check,Low,In Progress,Charlie,2025-10-15,2025-10-16,Adjusted pressure,0.02,No,No,No,No,No
+53,2024-12-20,1013,Leakage,Low,Closed,Charlie,2025-10-16,2025-10-17,Lubricated moving parts,1.23,No,No,No,No,No
+54,2024-12-21,1017,Leakage,Medium,Open,Bob,2025-10-17,2025-10-18,Lubricated moving parts,1.01,No,No,No,No,No
+55,2024-12-22,1008,Vibration abnormal,Medium,Closed,Charlie,2025-10-18,2025-10-19,Replaced faulty valve,0.16,No,Yes,No,No,No
+56,2024-12-23,1001,Leakage,High,Closed,Charlie,2025-10-19,2025-10-20,Replaced faulty valve,1.45,No,No,No,No,No
+57,2024-12-24,1003,Vibration abnormal,Medium,Closed,Alice,2025-10-20,2025-10-21,Routine inspection,0.07,No,No,No,No,No
+58,2024-12-25,1016,Leakage,Low,Closed,David,2025-10-21,2025-10-22,Routine inspection,1.75,No,No,No,No,No
+59,2024-12-26,1002,Pressure drop,High,Open,Alice,2025-10-22,2025-10-23,Lubricated moving parts,0.3,No,Yes,No,No,No
+60,2024-12-27,1015,Overheating,High,Closed,Bob,2025-10-23,2025-10-24,Routine inspection,1.17,Yes,No,No,No,No
+61,2024-12-28,1001,Pressure drop,Medium,Open,Charlie,2025-10-24,2025-10-25,Lubricated moving parts,2.57,No,Yes,No,No,No
+62,2024-12-29,1009,Vibration abnormal,High,Closed,Charlie,2025-10-25,2025-10-26,Adjusted pressure,0.42,No,No,No,No,No
+63,2024-12-30,1016,Vibration abnormal,Medium,Closed,Charlie,2025-10-26,2025-10-27,Lubricated moving parts,0.7,No,No,Yes,No,No
+64,2024-12-31,1004,Pressure drop,Medium,In Progress,Charlie,2025-10-27,2025-10-28,Routine inspection,0.62,No,No,No,No,No
+65,2025-01-01,1012,Overheating,Medium,Closed,Charlie,2025-10-28,2025-10-29,Routine inspection,0.17,No,No,No,No,No
+66,2025-01-02,1001,Overheating,Medium,Open,Charlie,2025-10-29,2025-10-30,Lubricated moving parts,0.89,No,No,No,No,No
+67,2025-01-03,1001,Routine check,Low,In Progress,Bob,2025-10-30,2025-10-31,Replaced faulty valve,1.36,No,No,No,No,No
+68,2025-01-04,1007,Leakage,High,In Progress,Charlie,2025-10-31,2025-11-01,Lubricated moving parts,2.49,No,No,Yes,No,No
+69,2025-01-05,1018,Routine check,High,Closed,Charlie,2025-11-01,2025-11-02,Lubricated moving parts,1.9,No,No,No,No,No
+70,2025-01-06,1015,Overheating,Medium,Open,Charlie,2025-11-02,2025-11-03,Replaced faulty valve,0.71,No,No,No,No,No
+71,2025-01-07,1013,Pressure drop,Medium,Closed,Bob,2025-11-03,2025-11-04,Adjusted pressure,1.27,No,No,No,No,No
+72,2025-01-08,1016,Leakage,Low,Open,Charlie,2025-11-04,2025-11-05,Replaced faulty valve,1.61,No,No,No,No,No
+73,2025-01-09,1007,Pressure drop,Low,Closed,Bob,2025-11-05,2025-11-06,Routine inspection,0.68,No,Yes,No,No,No
+74,2025-01-10,1016,Routine check,Low,Open,Alice,2025-11-06,2025-11-07,Replaced faulty valve,0.12,No,No,Yes,No,No
+75,2025-01-11,1013,Vibration abnormal,Medium,Closed,Charlie,2025-11-07,2025-11-08,Routine inspection,0.58,No,No,No,No,No
+76,2025-01-12,1014,Pressure drop,High,Open,David,2025-11-08,2025-11-09,Routine inspection,1.85,No,No,No,No,No
+77,2025-01-13,1017,Routine check,Low,Closed,Bob,2025-11-09,2025-11-10,Lubricated moving parts,0.91,No,No,Yes,No,No
+78,2025-01-14,1012,Routine check,Low,In Progress,Alice,2025-11-10,2025-11-11,Lubricated moving parts,1.29,No,No,No,Yes,No
+79,2025-01-15,1013,Routine check,Medium,Closed,Bob,2025-11-11,2025-11-12,Adjusted pressure,0.2,No,No,No,Yes,No
+80,2025-01-16,1015,Vibration abnormal,Low,In Progress,Bob,2025-11-12,2025-11-13,Routine inspection,3.33,No,No,No,No,No
+81,2025-01-17,1004,Vibration abnormal,High,Closed,Alice,2025-11-13,2025-11-14,Lubricated moving parts,0.52,No,No,No,No,No
+82,2025-01-18,1002,Vibration abnormal,Medium,In Progress,Charlie,2025-11-14,2025-11-15,Routine inspection,1.06,No,No,No,No,No
+83,2025-01-19,1018,Leakage,Low,Closed,Charlie,2025-11-15,2025-11-16,Adjusted pressure,0.02,No,No,No,No,No
+84,2025-01-20,1002,Vibration abnormal,Low,Open,Bob,2025-11-16,2025-11-17,Routine inspection,0.14,No,Yes,No,No,No
+85,2025-01-21,1015,Vibration abnormal,Low,In Progress,Alice,2025-11-17,2025-11-18,Adjusted pressure,1.52,No,Yes,No,No,No
+86,2025-01-22,1019,Vibration abnormal,Medium,In Progress,Charlie,2025-11-18,2025-11-19,Adjusted pressure,3.44,No,No,No,No,No
+87,2025-01-23,1015,Pressure drop,Low,Open,Bob,2025-11-19,2025-11-20,Adjusted pressure,0.39,No,No,No,No,No
+88,2025-01-24,1010,Vibration abnormal,Medium,Open,David,2025-11-20,2025-11-21,Lubricated moving parts,0.04,No,Yes,No,No,No
+89,2025-01-25,1011,Leakage,Medium,Closed,Alice,2025-11-21,2025-11-22,Replaced faulty valve,0.45,No,No,No,No,No
+90,2025-01-26,1010,Routine check,Low,Closed,David,2025-11-22,2025-11-23,Replaced faulty valve,0.02,No,No,No,No,No
+91,2025-01-27,1005,Pressure drop,Low,Closed,David,2025-11-23,2025-11-24,Lubricated moving parts,0.21,No,No,No,No,No
+92,2025-01-28,1009,Overheating,Medium,In Progress,Bob,2025-11-24,2025-11-25,Routine inspection,1.4,Yes,No,No,No,No
+93,2025-01-29,1019,Vibration abnormal,Medium,In Progress,Alice,2025-11-25,2025-11-26,Lubricated moving parts,2.77,No,No,No,Yes,No
+94,2025-01-30,1013,Routine check,High,Closed,Charlie,2025-11-26,2025-11-27,Routine inspection,0.09,No,No,No,No,Yes
+95,2025-01-31,1018,Routine check,Low,Open,Charlie,2025-11-27,2025-11-28,Adjusted pressure,0.82,No,No,No,No,No
+96,2025-02-01,1017,Pressure drop,Low,Closed,Bob,2025-11-28,2025-11-29,Lubricated moving parts,0.29,No,No,No,No,No
+97,2025-02-02,1006,Overheating,Low,In Progress,Charlie,2025-11-29,2025-11-30,Replaced faulty valve,0.15,No,No,No,Yes,No
+98,2025-02-03,1010,Leakage,Medium,Closed,Charlie,2025-11-30,2025-12-01,Routine inspection,0.25,No,No,No,No,Yes
+99,2025-02-04,1002,Routine check,Medium,In Progress,David,2025-12-01,2025-12-02,Lubricated moving parts,0.86,No,No,No,No,No
+100,2025-02-05,1006,Routine check,High,Closed,David,2025-12-02,2025-12-03,Lubricated moving parts,0.07,No,No,No,No,No
+101,2025-02-06,1013,Routine check,Medium,Open,Alice,2025-12-03,2025-12-04,Routine inspection,0.57,No,No,No,No,No
+102,2025-02-07,1018,Routine check,Low,Closed,David,2025-12-04,2025-12-05,Adjusted pressure,0.15,No,Yes,No,No,No
+103,2025-02-08,1007,Pressure drop,Medium,In Progress,Charlie,2025-12-05,2025-12-06,Adjusted pressure,0.32,No,No,No,No,No
+104,2025-02-09,1002,Overheating,High,Closed,Alice,2025-12-06,2025-12-07,Adjusted pressure,0.21,Yes,No,No,No,No
+105,2025-02-10,1014,Routine check,Medium,Closed,Alice,2025-12-07,2025-12-08,Adjusted pressure,2.15,No,No,Yes,No,No
+106,2025-02-11,1005,Leakage,Medium,Open,Bob,2025-12-08,2025-12-09,Routine inspection,1.23,No,No,No,No,No
+107,2025-02-12,1018,Leakage,High,In Progress,David,2025-12-09,2025-12-10,Replaced faulty valve,2.03,No,No,No,Yes,No
+108,2025-02-13,1011,Vibration abnormal,Medium,In Progress,Alice,2025-12-10,2025-12-11,Lubricated moving parts,0.48,No,No,No,Yes,No
+109,2025-02-14,1010,Routine check,Medium,In Progress,Charlie,2025-12-11,2025-12-12,Lubricated moving parts,0.38,No,No,No,No,No
+110,2025-02-15,1011,Routine check,Low,In Progress,Alice,2025-12-12,2025-12-13,Adjusted pressure,0.48,No,No,Yes,No,No
+111,2025-02-16,1002,Routine check,Medium,In Progress,Alice,2025-12-13,2025-12-14,Routine inspection,0.02,No,No,No,No,No
+112,2025-02-17,1015,Routine check,Low,In Progress,Bob,2025-12-14,2025-12-15,Replaced faulty valve,1.29,Yes,No,No,No,No
+113,2025-02-18,1007,Routine check,Medium,Closed,Charlie,2025-12-15,2025-12-16,Replaced faulty valve,0.43,No,No,No,No,No
+114,2025-02-19,1009,Leakage,Low,Closed,Charlie,2025-12-16,2025-12-17,Lubricated moving parts,0.38,No,Yes,No,No,No
+115,2025-02-20,1005,Overheating,High,In Progress,David,2025-12-17,2025-12-18,Adjusted pressure,0.91,No,No,No,No,No
+116,2025-02-21,1007,Overheating,High,Closed,Charlie,2025-12-18,2025-12-19,Lubricated moving parts,0.57,No,No,No,Yes,No
+117,2025-02-22,1002,Vibration abnormal,Medium,Closed,Alice,2025-12-19,2025-12-20,Lubricated moving parts,3.96,No,No,No,No,No
+118,2025-02-23,1003,Leakage,Low,Closed,Charlie,2025-12-20,2025-12-21,Replaced faulty valve,0.44,No,No,No,No,No
+119,2025-02-24,1002,Routine check,Low,In Progress,Charlie,2025-12-21,2025-12-22,Routine inspection,0.95,No,Yes,No,No,No
+120,2025-02-25,1019,Overheating,Medium,In Progress,Alice,2025-12-22,2025-12-23,Replaced faulty valve,0.37,No,No,Yes,No,No
+121,2025-02-26,1004,Pressure drop,Medium,Closed,Bob,2025-12-23,2025-12-24,Lubricated moving parts,4.67,No,No,No,No,No
+122,2025-02-27,1007,Pressure drop,Medium,Closed,David,2025-12-24,2025-12-25,Adjusted pressure,0.59,No,No,No,No,No
+123,2025-02-28,1007,Pressure drop,Medium,Open,David,2025-12-25,2025-12-26,Adjusted pressure,1.01,No,Yes,No,No,No
+124,2025-03-01,1017,Routine check,Medium,Closed,Bob,2025-12-26,2025-12-27,Routine inspection,0.14,No,Yes,No,No,No
+125,2025-03-02,1019,Routine check,Medium,In Progress,Alice,2025-12-27,2025-12-28,Routine inspection,1.32,No,No,No,Yes,No
+126,2025-03-03,1016,Vibration abnormal,Medium,Open,David,2025-12-28,2025-12-29,Routine inspection,0.31,No,Yes,No,No,No
+127,2025-03-04,1003,Vibration abnormal,Medium,Closed,Bob,2025-12-29,2025-12-30,Lubricated moving parts,0.6,No,No,No,No,No
+128,2025-03-05,1015,Vibration abnormal,Medium,Closed,Bob,2025-12-30,2025-12-31,Lubricated moving parts,2.15,No,No,No,No,No
+129,2025-03-06,1014,Pressure drop,Low,In Progress,Bob,2025-12-31,2026-01-01,Routine inspection,3.53,No,No,No,No,No
+130,2025-03-07,1015,Routine check,Low,Closed,David,2026-01-01,2026-01-02,Adjusted pressure,0.55,No,No,No,No,No
+131,2025-03-08,1014,Pressure drop,Medium,Closed,David,2026-01-02,2026-01-03,Adjusted pressure,1.8,No,No,No,No,No
+132,2025-03-09,1007,Vibration abnormal,Low,Closed,David,2026-01-03,2026-01-04,Adjusted pressure,0.05,No,No,No,No,No
+133,2025-03-10,1003,Routine check,Medium,Closed,David,2026-01-04,2026-01-05,Lubricated moving parts,1.88,No,No,No,No,Yes
+134,2025-03-11,1017,Leakage,Medium,Open,Charlie,2026-01-05,2026-01-06,Replaced faulty valve,0.99,Yes,No,No,No,No
+135,2025-03-12,1010,Overheating,High,Open,Bob,2026-01-06,2026-01-07,Adjusted pressure,0.67,No,No,No,No,No
+136,2025-03-13,1015,Overheating,Medium,In Progress,Charlie,2026-01-07,2026-01-08,Adjusted pressure,2.21,Yes,No,No,No,No
+137,2025-03-14,1006,Vibration abnormal,Low,Closed,Bob,2026-01-08,2026-01-09,Adjusted pressure,1.87,No,No,Yes,No,No
+138,2025-03-15,1017,Pressure drop,Low,Closed,David,2026-01-09,2026-01-10,Routine inspection,0.35,No,Yes,No,No,No
+139,2025-03-16,1017,Leakage,High,In Progress,David,2026-01-10,2026-01-11,Lubricated moving parts,1.57,Yes,No,No,No,No
+140,2025-03-17,1014,Routine check,Low,In Progress,Charlie,2026-01-11,2026-01-12,Routine inspection,0.1,No,No,No,No,No
+141,2025-03-18,1018,Pressure drop,Medium,In Progress,Alice,2026-01-12,2026-01-13,Routine inspection,1.73,No,No,No,No,No
+142,2025-03-19,1005,Vibration abnormal,Medium,In Progress,David,2026-01-13,2026-01-14,Replaced faulty valve,1.13,No,Yes,No,No,No
+143,2025-03-20,1008,Pressure drop,Medium,Closed,Alice,2026-01-14,2026-01-15,Routine inspection,0.09,No,Yes,No,No,No
+144,2025-03-21,1007,Vibration abnormal,Medium,Closed,Bob,2026-01-15,2026-01-16,Replaced faulty valve,1.15,No,No,No,No,No
+145,2025-03-22,1004,Overheating,Medium,Open,Charlie,2026-01-16,2026-01-17,Routine inspection,0.87,No,No,No,Yes,No
+146,2025-03-23,1018,Overheating,High,Closed,Alice,2026-01-17,2026-01-18,Adjusted pressure,0.9,No,No,No,No,No
+147,2025-03-24,1005,Pressure drop,Low,Closed,Alice,2026-01-18,2026-01-19,Lubricated moving parts,0.34,No,No,No,No,No
+148,2025-03-25,1016,Leakage,High,Closed,David,2026-01-19,2026-01-20,Routine inspection,0.31,No,No,No,Yes,No
+149,2025-03-26,1014,Routine check,Medium,Open,Alice,2026-01-20,2026-01-21,Replaced faulty valve,1.44,No,No,No,No,No
+150,2025-03-27,1019,Vibration abnormal,High,In Progress,Alice,2026-01-21,2026-01-22,Lubricated moving parts,0.3,No,No,No,No,No
+151,2025-03-28,1014,Routine check,Low,Open,Bob,2026-01-22,2026-01-23,Replaced faulty valve,0.59,No,No,No,No,Yes
+152,2025-03-29,1009,Overheating,Low,Closed,Charlie,2026-01-23,2026-01-24,Adjusted pressure,1.19,Yes,No,No,No,No
+153,2025-03-30,1006,Leakage,High,Closed,David,2026-01-24,2026-01-25,Routine inspection,0.08,No,No,No,No,No
+154,2025-03-31,1017,Leakage,High,Closed,David,2026-01-25,2026-01-26,Lubricated moving parts,0.9,No,No,Yes,No,No
+155,2025-04-01,1019,Routine check,Medium,In Progress,Alice,2026-01-26,2026-01-27,Adjusted pressure,0.89,No,No,No,No,No
+156,2025-04-02,1012,Overheating,Medium,Open,Bob,2026-01-27,2026-01-28,Routine inspection,1.15,No,No,No,No,No
+157,2025-04-03,1004,Routine check,High,Open,Alice,2026-01-28,2026-01-29,Routine inspection,0.46,No,No,No,Yes,No
+158,2025-04-04,1016,Pressure drop,Low,Closed,Alice,2026-01-29,2026-01-30,Replaced faulty valve,0.6,No,Yes,No,No,No
+159,2025-04-05,1011,Leakage,Medium,Open,David,2026-01-30,2026-01-31,Replaced faulty valve,0.4,No,No,No,No,No
+160,2025-04-06,1004,Leakage,High,Open,Alice,2026-01-31,2026-02-01,Adjusted pressure,1.65,No,No,No,No,No
+161,2025-04-07,1017,Pressure drop,Medium,Closed,Alice,2026-02-01,2026-02-02,Replaced faulty valve,0.14,No,No,No,No,No
+162,2025-04-08,1008,Overheating,Medium,Closed,Bob,2026-02-02,2026-02-03,Adjusted pressure,3.3,No,No,No,No,No
+163,2025-04-09,1014,Leakage,Medium,Closed,David,2026-02-03,2026-02-04,Adjusted pressure,1.01,No,No,No,No,No
+164,2025-04-10,1002,Vibration abnormal,Medium,Open,Charlie,2026-02-04,2026-02-05,Adjusted pressure,2.18,No,Yes,No,No,No
+165,2025-04-11,1011,Vibration abnormal,Low,Closed,Bob,2026-02-05,2026-02-06,Replaced faulty valve,0.56,No,No,No,No,No
+166,2025-04-12,1011,Overheating,High,In Progress,Bob,2026-02-06,2026-02-07,Lubricated moving parts,0.4,No,No,No,No,No
+167,2025-04-13,1006,Pressure drop,Medium,Closed,Bob,2026-02-07,2026-02-08,Adjusted pressure,2.31,No,No,No,No,No
+168,2025-04-14,1014,Routine check,High,Open,David,2026-02-08,2026-02-09,Lubricated moving parts,0.1,No,No,No,No,No
+169,2025-04-15,1010,Overheating,High,In Progress,Alice,2026-02-09,2026-02-10,Routine inspection,0.12,No,No,No,No,No
+170,2025-04-16,1008,Routine check,Low,Closed,Charlie,2026-02-10,2026-02-11,Replaced faulty valve,0.36,No,No,No,No,No
+171,2025-04-17,1007,Overheating,Low,Closed,David,2026-02-11,2026-02-12,Replaced faulty valve,3.21,No,Yes,No,No,No
+172,2025-04-18,1008,Vibration abnormal,Medium,Closed,Alice,2026-02-12,2026-02-13,Lubricated moving parts,1.0,No,No,No,No,No
+173,2025-04-19,1008,Pressure drop,Medium,Open,Bob,2026-02-13,2026-02-14,Routine inspection,0.81,No,Yes,No,No,No
+174,2025-04-20,1002,Vibration abnormal,Medium,Open,David,2026-02-14,2026-02-15,Routine inspection,1.22,No,No,No,Yes,No
+175,2025-04-21,1016,Pressure drop,Medium,Closed,Alice,2026-02-15,2026-02-16,Adjusted pressure,0.54,No,No,No,No,No
+176,2025-04-22,1009,Routine check,Medium,Closed,Charlie,2026-02-16,2026-02-17,Replaced faulty valve,1.42,No,No,No,No,Yes
+177,2025-04-23,1013,Overheating,Low,Closed,Charlie,2026-02-17,2026-02-18,Routine inspection,0.5,No,No,No,No,No
+178,2025-04-24,1012,Leakage,Medium,Closed,Alice,2026-02-18,2026-02-19,Routine inspection,1.75,No,No,No,No,No
+179,2025-04-25,1017,Leakage,Medium,In Progress,David,2026-02-19,2026-02-20,Adjusted pressure,0.31,No,Yes,No,No,No
+180,2025-04-26,1002,Pressure drop,Medium,Closed,Bob,2026-02-20,2026-02-21,Adjusted pressure,0.33,No,No,No,No,No
+181,2025-04-27,1013,Pressure drop,Low,Open,Alice,2026-02-21,2026-02-22,Lubricated moving parts,0.74,No,No,No,No,No
+182,2025-04-28,1001,Vibration abnormal,Medium,In Progress,Bob,2026-02-22,2026-02-23,Replaced faulty valve,0.56,No,No,No,No,No
+183,2025-04-29,1019,Leakage,Low,In Progress,Charlie,2026-02-23,2026-02-24,Routine inspection,1.04,No,No,No,No,No
+184,2025-04-30,1011,Vibration abnormal,Medium,Open,Alice,2026-02-24,2026-02-25,Lubricated moving parts,0.45,No,No,No,No,No
+185,2025-05-01,1005,Routine check,Medium,Closed,Charlie,2026-02-25,2026-02-26,Replaced faulty valve,0.26,No,Yes,No,No,No
+186,2025-05-02,1001,Leakage,Low,Closed,Bob,2026-02-26,2026-02-27,Lubricated moving parts,0.63,No,No,Yes,No,No
+187,2025-05-03,1013,Routine check,Medium,Closed,Bob,2026-02-27,2026-02-28,Replaced faulty valve,0.82,No,No,No,No,No
+188,2025-05-04,1008,Overheating,Medium,In Progress,Alice,2026-02-28,2026-03-01,Replaced faulty valve,0.15,No,No,No,No,No
+189,2025-05-05,1006,Vibration abnormal,Low,In Progress,Alice,2026-03-01,2026-03-02,Routine inspection,0.81,No,No,No,Yes,No
+190,2025-05-06,1017,Pressure drop,Low,Open,Alice,2026-03-02,2026-03-03,Replaced faulty valve,0.38,No,No,No,No,No
+191,2025-05-07,1012,Leakage,High,Closed,Charlie,2026-03-03,2026-03-04,Adjusted pressure,0.5,No,No,No,No,No
+192,2025-05-08,1001,Vibration abnormal,Medium,In Progress,Bob,2026-03-04,2026-03-05,Routine inspection,0.33,No,No,No,No,No
+193,2025-05-09,1003,Pressure drop,High,Closed,Bob,2026-03-05,2026-03-06,Adjusted pressure,2.68,No,No,No,No,No
+194,2025-05-10,1014,Overheating,Medium,Open,Charlie,2026-03-06,2026-03-07,Lubricated moving parts,1.15,No,No,No,No,No
+195,2025-05-11,1008,Leakage,Medium,In Progress,Alice,2026-03-07,2026-03-08,Lubricated moving parts,0.3,No,No,No,No,No
+196,2025-05-12,1011,Routine check,Medium,Closed,David,2026-03-08,2026-03-09,Replaced faulty valve,1.04,No,No,No,No,No
+197,2025-05-13,1014,Overheating,Medium,Closed,Alice,2026-03-09,2026-03-10,Replaced faulty valve,1.89,No,No,No,No,No
+198,2025-05-14,1008,Pressure drop,Low,In Progress,David,2026-03-10,2026-03-11,Adjusted pressure,0.51,No,No,No,No,No
+199,2025-05-15,1003,Leakage,Medium,Closed,David,2026-03-11,2026-03-12,Adjusted pressure,1.77,No,No,No,No,No
+200,2025-05-16,1007,Leakage,Medium,Closed,Charlie,2026-03-12,2026-03-13,Adjusted pressure,0.17,No,No,No,No,No
+201,2025-05-17,1019,Overheating,Low,Closed,Bob,2026-03-13,2026-03-14,Lubricated moving parts,1.73,No,No,No,Yes,No
+202,2025-05-18,1004,Leakage,Low,Closed,Bob,2026-03-14,2026-03-15,Adjusted pressure,0.78,No,No,Yes,No,No
+203,2025-05-19,1016,Pressure drop,Low,Closed,Bob,2026-03-15,2026-03-16,Routine inspection,0.25,No,No,No,No,No
+204,2025-05-20,1013,Overheating,Medium,In Progress,Bob,2026-03-16,2026-03-17,Routine inspection,0.52,No,No,Yes,No,No
+205,2025-05-21,1019,Routine check,Medium,Closed,Charlie,2026-03-17,2026-03-18,Lubricated moving parts,4.42,No,No,No,No,Yes
+206,2025-05-22,1005,Overheating,High,In Progress,David,2026-03-18,2026-03-19,Adjusted pressure,1.53,No,No,No,Yes,No
+207,2025-05-23,1005,Overheating,Low,Closed,Bob,2026-03-19,2026-03-20,Adjusted pressure,0.86,Yes,No,No,No,No
+208,2025-05-24,1004,Routine check,Low,Open,David,2026-03-20,2026-03-21,Replaced faulty valve,0.12,Yes,No,No,No,No
+209,2025-05-25,1002,Pressure drop,Medium,In Progress,Charlie,2026-03-21,2026-03-22,Routine inspection,0.54,No,Yes,No,No,No
+210,2025-05-26,1013,Vibration abnormal,High,Closed,Alice,2026-03-22,2026-03-23,Lubricated moving parts,0.31,No,No,No,No,No
+211,2025-05-27,1016,Vibration abnormal,Low,In Progress,Charlie,2026-03-23,2026-03-24,Adjusted pressure,0.07,No,No,No,No,No
+212,2025-05-28,1002,Routine check,Medium,In Progress,Bob,2026-03-24,2026-03-25,Replaced faulty valve,0.78,No,No,No,No,No
+213,2025-05-29,1019,Pressure drop,Medium,Closed,Alice,2026-03-25,2026-03-26,Lubricated moving parts,2.2,No,Yes,No,No,No
+214,2025-05-30,1017,Leakage,Low,Closed,Charlie,2026-03-26,2026-03-27,Lubricated moving parts,1.13,No,No,No,No,No
+215,2025-05-31,1005,Routine check,Medium,Closed,Charlie,2026-03-27,2026-03-28,Routine inspection,0.29,No,No,No,No,No
+216,2025-06-01,1018,Vibration abnormal,Low,In Progress,David,2026-03-28,2026-03-29,Adjusted pressure,0.85,No,No,No,No,No
+217,2025-06-02,1018,Pressure drop,High,Closed,Charlie,2026-03-29,2026-03-30,Lubricated moving parts,2.87,No,Yes,No,No,No
+218,2025-06-03,1008,Overheating,Medium,In Progress,Alice,2026-03-30,2026-03-31,Replaced faulty valve,1.28,No,No,No,No,No
+219,2025-06-04,1015,Pressure drop,Medium,Open,Charlie,2026-03-31,2026-04-01,Replaced faulty valve,1.17,No,No,No,No,No
+220,2025-06-05,1013,Pressure drop,Medium,Closed,Bob,2026-04-01,2026-04-02,Lubricated moving parts,3.45,No,No,No,No,No
+221,2025-06-06,1013,Vibration abnormal,Medium,Closed,David,2026-04-02,2026-04-03,Replaced faulty valve,1.6,No,No,No,No,No
+222,2025-06-07,1016,Vibration abnormal,Medium,In Progress,Alice,2026-04-03,2026-04-04,Lubricated moving parts,0.15,No,No,No,No,No
+223,2025-06-08,1013,Leakage,Low,Closed,Alice,2026-04-04,2026-04-05,Replaced faulty valve,0.43,No,No,No,No,No
+224,2025-06-09,1002,Leakage,Medium,In Progress,Charlie,2026-04-05,2026-04-06,Lubricated moving parts,3.36,No,No,No,No,No
+225,2025-06-10,1003,Routine check,Low,In Progress,Bob,2026-04-06,2026-04-07,Lubricated moving parts,0.67,No,No,No,Yes,No
+226,2025-06-11,1015,Overheating,Medium,Open,David,2026-04-07,2026-04-08,Lubricated moving parts,0.12,No,No,No,No,No
+227,2025-06-12,1019,Leakage,Low,Closed,Alice,2026-04-08,2026-04-09,Replaced faulty valve,0.61,No,No,No,No,No
+228,2025-06-13,1013,Vibration abnormal,Medium,Closed,David,2026-04-09,2026-04-10,Lubricated moving parts,1.19,No,No,No,No,No
+229,2025-06-14,1005,Pressure drop,Low,Closed,Charlie,2026-04-10,2026-04-11,Routine inspection,6.01,No,Yes,No,No,No
+230,2025-06-15,1006,Routine check,High,Closed,Bob,2026-04-11,2026-04-12,Lubricated moving parts,0.39,No,Yes,No,No,No
+231,2025-06-16,1014,Leakage,Medium,Closed,Charlie,2026-04-12,2026-04-13,Adjusted pressure,0.72,No,No,No,No,No
+232,2025-06-17,1004,Pressure drop,Medium,In Progress,David,2026-04-13,2026-04-14,Adjusted pressure,2.12,No,No,No,No,No
+233,2025-06-18,1019,Pressure drop,High,In Progress,Charlie,2026-04-14,2026-04-15,Routine inspection,0.44,No,No,No,No,No
+234,2025-06-19,1007,Leakage,Medium,Open,David,2026-04-15,2026-04-16,Lubricated moving parts,0.12,No,No,No,No,No
+235,2025-06-20,1004,Overheating,High,Closed,Alice,2026-04-16,2026-04-17,Adjusted pressure,2.97,No,No,No,No,Yes
+236,2025-06-21,1002,Overheating,Low,Closed,Alice,2026-04-17,2026-04-18,Lubricated moving parts,0.67,No,No,No,No,No
+237,2025-06-22,1007,Routine check,Medium,Open,Charlie,2026-04-18,2026-04-19,Adjusted pressure,0.7,No,No,No,No,No
+238,2025-06-23,1003,Overheating,Medium,Open,Alice,2026-04-19,2026-04-20,Replaced faulty valve,0.97,No,No,No,No,No
+239,2025-06-24,1015,Routine check,High,In Progress,David,2026-04-20,2026-04-21,Replaced faulty valve,0.0,Yes,No,No,No,No
+240,2025-06-25,1001,Vibration abnormal,Low,Closed,Alice,2026-04-21,2026-04-22,Routine inspection,2.68,No,No,No,No,No
+241,2025-06-26,1002,Leakage,High,In Progress,Bob,2026-04-22,2026-04-23,Routine inspection,0.45,No,No,No,No,No
+242,2025-06-27,1010,Pressure drop,Medium,In Progress,Bob,2026-04-23,2026-04-24,Lubricated moving parts,0.51,No,No,No,No,No
+243,2025-06-28,1016,Routine check,High,Closed,Charlie,2026-04-24,2026-04-25,Routine inspection,0.19,No,No,No,No,No
+244,2025-06-29,1015,Overheating,Medium,Closed,Charlie,2026-04-25,2026-04-26,Lubricated moving parts,0.48,Yes,No,No,No,No
+245,2025-06-30,1015,Routine check,Low,Open,Charlie,2026-04-26,2026-04-27,Replaced faulty valve,1.63,No,No,No,Yes,No
+246,2025-07-01,1014,Routine check,High,Open,Charlie,2026-04-27,2026-04-28,Replaced faulty valve,1.61,No,No,No,No,No
+247,2025-07-02,1014,Overheating,High,Closed,David,2026-04-28,2026-04-29,Adjusted pressure,2.75,No,No,No,No,No
+248,2025-07-03,1006,Overheating,Medium,In Progress,David,2026-04-29,2026-04-30,Lubricated moving parts,0.52,No,No,Yes,No,No
+249,2025-07-04,1014,Leakage,Low,Closed,Bob,2026-04-30,2026-05-01,Replaced faulty valve,1.23,No,No,No,No,No
+250,2025-07-05,1017,Pressure drop,Low,Closed,David,2026-05-01,2026-05-02,Replaced faulty valve,0.71,No,No,No,No,No
+251,2025-07-06,1018,Leakage,Medium,Open,Alice,2026-05-02,2026-05-03,Lubricated moving parts,1.63,No,No,No,No,No
+252,2025-07-07,1019,Leakage,Low,In Progress,Bob,2026-05-03,2026-05-04,Adjusted pressure,1.25,No,No,Yes,No,No
+253,2025-07-08,1017,Overheating,Medium,In Progress,Charlie,2026-05-04,2026-05-05,Adjusted pressure,0.46,No,No,No,No,No
+254,2025-07-09,1016,Overheating,Medium,Open,Charlie,2026-05-05,2026-05-06,Adjusted pressure,0.41,No,Yes,No,No,No
+255,2025-07-10,1008,Pressure drop,Medium,Closed,David,2026-05-06,2026-05-07,Adjusted pressure,0.29,No,Yes,No,No,No
+256,2025-07-11,1007,Routine check,Low,Closed,Bob,2026-05-07,2026-05-08,Replaced faulty valve,0.86,Yes,No,No,No,No
+257,2025-07-12,1012,Leakage,Medium,In Progress,David,2026-05-08,2026-05-09,Lubricated moving parts,3.32,No,No,No,No,No
+258,2025-07-13,1009,Pressure drop,Medium,In Progress,David,2026-05-09,2026-05-10,Lubricated moving parts,0.22,No,Yes,No,No,No
+259,2025-07-14,1014,Leakage,Medium,Open,David,2026-05-10,2026-05-11,Replaced faulty valve,0.1,No,No,No,No,No
+260,2025-07-15,1001,Routine check,Medium,In Progress,Bob,2026-05-11,2026-05-12,Replaced faulty valve,0.13,No,No,No,No,No
+261,2025-07-16,1010,Leakage,Medium,Closed,Charlie,2026-05-12,2026-05-13,Replaced faulty valve,1.53,No,No,No,No,No
+262,2025-07-17,1017,Vibration abnormal,Medium,In Progress,Alice,2026-05-13,2026-05-14,Routine inspection,0.43,No,No,No,No,No
+263,2025-07-18,1017,Pressure drop,High,Closed,Charlie,2026-05-14,2026-05-15,Lubricated moving parts,0.25,No,No,No,No,No
+264,2025-07-19,1017,Overheating,Medium,Open,Bob,2026-05-15,2026-05-16,Lubricated moving parts,0.44,No,No,No,No,No
+265,2025-07-20,1004,Leakage,High,Closed,Charlie,2026-05-16,2026-05-17,Lubricated moving parts,1.04,No,No,No,No,No
+266,2025-07-21,1017,Pressure drop,Medium,Closed,Charlie,2026-05-17,2026-05-18,Adjusted pressure,0.79,No,No,No,No,No
+267,2025-07-22,1018,Pressure drop,Medium,In Progress,Alice,2026-05-18,2026-05-19,Replaced faulty valve,1.36,No,Yes,No,No,No
+268,2025-07-23,1002,Leakage,Low,Open,Charlie,2026-05-19,2026-05-20,Replaced faulty valve,0.41,No,No,No,Yes,No
+269,2025-07-24,1008,Overheating,Medium,In Progress,Charlie,2026-05-20,2026-05-21,Replaced faulty valve,0.6,No,No,No,No,No
+270,2025-07-25,1013,Overheating,Medium,In Progress,Charlie,2026-05-21,2026-05-22,Routine inspection,0.11,No,No,No,No,No
+271,2025-07-26,1015,Leakage,Low,Closed,David,2026-05-22,2026-05-23,Lubricated moving parts,0.08,No,No,No,No,No
+272,2025-07-27,1009,Pressure drop,Medium,Closed,Bob,2026-05-23,2026-05-24,Replaced faulty valve,0.62,No,No,No,No,No
+273,2025-07-28,1003,Overheating,Low,Closed,Bob,2026-05-24,2026-05-25,Routine inspection,0.36,No,No,No,No,Yes
+274,2025-07-29,1003,Leakage,Medium,Closed,Alice,2026-05-25,2026-05-26,Replaced faulty valve,0.95,No,No,No,No,No
+275,2025-07-30,1002,Leakage,Medium,In Progress,David,2026-05-26,2026-05-27,Adjusted pressure,0.04,No,No,Yes,No,No
+276,2025-07-31,1001,Leakage,Medium,Closed,David,2026-05-27,2026-05-28,Lubricated moving parts,0.13,No,No,No,No,No
+277,2025-08-01,1014,Pressure drop,High,Closed,Charlie,2026-05-28,2026-05-29,Routine inspection,2.0,No,No,No,No,No
+278,2025-08-02,1017,Overheating,Medium,In Progress,Bob,2026-05-29,2026-05-30,Replaced faulty valve,0.84,No,No,No,No,No
+279,2025-08-03,1013,Pressure drop,Medium,In Progress,Alice,2026-05-30,2026-05-31,Lubricated moving parts,1.24,No,Yes,No,No,No
+280,2025-08-04,1019,Vibration abnormal,Medium,Closed,David,2026-05-31,2026-06-01,Routine inspection,1.84,No,No,No,No,No
+281,2025-08-05,1015,Overheating,High,Open,Charlie,2026-06-01,2026-06-02,Lubricated moving parts,0.62,No,No,No,No,No
+282,2025-08-06,1014,Pressure drop,Medium,Open,Alice,2026-06-02,2026-06-03,Lubricated moving parts,1.43,No,No,No,No,No
+283,2025-08-07,1002,Overheating,Medium,Closed,David,2026-06-03,2026-06-04,Adjusted pressure,0.74,No,No,No,No,No
+284,2025-08-08,1007,Vibration abnormal,Low,Closed,Alice,2026-06-04,2026-06-05,Lubricated moving parts,0.25,No,No,No,No,No
+285,2025-08-09,1017,Routine check,Medium,Open,David,2026-06-05,2026-06-06,Routine inspection,0.41,No,No,No,No,No
+286,2025-08-10,1018,Leakage,Low,In Progress,Alice,2026-06-06,2026-06-07,Lubricated moving parts,0.67,No,No,No,No,No
+287,2025-08-11,1006,Pressure drop,Medium,Closed,David,2026-06-07,2026-06-08,Routine inspection,0.38,No,Yes,No,No,No
+288,2025-08-12,1008,Vibration abnormal,High,Closed,David,2026-06-08,2026-06-09,Lubricated moving parts,0.41,No,No,No,No,No
+289,2025-08-13,1002,Vibration abnormal,Medium,In Progress,Alice,2026-06-09,2026-06-10,Replaced faulty valve,0.41,No,No,No,No,No
+290,2025-08-14,1001,Overheating,Medium,Closed,David,2026-06-10,2026-06-11,Adjusted pressure,0.13,No,No,No,No,No
+291,2025-08-15,1016,Overheating,Medium,Closed,David,2026-06-11,2026-06-12,Replaced faulty valve,0.09,No,No,No,No,No
+292,2025-08-16,1007,Leakage,Medium,Closed,David,2026-06-12,2026-06-13,Adjusted pressure,0.05,No,No,No,No,No
+293,2025-08-17,1011,Overheating,Medium,In Progress,Alice,2026-06-13,2026-06-14,Routine inspection,0.12,No,No,No,No,No
+294,2025-08-18,1015,Pressure drop,Medium,Open,Alice,2026-06-14,2026-06-15,Adjusted pressure,0.42,No,No,No,No,No
+295,2025-08-19,1013,Pressure drop,Low,Closed,David,2026-06-15,2026-06-16,Lubricated moving parts,0.9,No,No,No,No,No
+296,2025-08-20,1002,Pressure drop,Low,Open,David,2026-06-16,2026-06-17,Lubricated moving parts,0.21,No,No,No,No,No
+297,2025-08-21,1014,Routine check,Medium,Closed,Alice,2026-06-17,2026-06-18,Replaced faulty valve,2.19,No,No,No,No,No
+298,2025-08-22,1006,Pressure drop,Medium,Open,Charlie,2026-06-18,2026-06-19,Adjusted pressure,1.65,No,No,No,No,No
+299,2025-08-23,1009,Overheating,Low,In Progress,David,2026-06-19,2026-06-20,Routine inspection,0.74,No,No,No,No,No
+300,2025-08-24,1007,Overheating,Medium,In Progress,Charlie,2026-06-20,2026-06-21,Routine inspection,1.29,No,No,No,No,No
